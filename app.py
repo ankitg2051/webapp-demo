@@ -4,4 +4,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello Ankit! CI/CD working perfectly 🔥"
+    return "Hello Ankit! Deployed from GitHub and CI/CD working fine 🚀"
