@@ -2,9 +2,6 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route("/")
 def home():
-    return "Hello Ankit! Your Azure Web App is running successfully 🚀"
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8000)
+    return "Hello Ankit! Deployed from GitHub 🚀"
